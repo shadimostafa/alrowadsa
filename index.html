@@ -26,27 +26,96 @@
   <div id="fadein"></div>
 
 
-  <div class="card">
-    <img src="img/alrowad-logo.png" alt="alrowad-logo" style="width:100%">
-    <div class="container">
-      <h4><b>مدارس الرواد</b></h4>
-      <p>الموقع الإليكتروني</p>
-    </div>
-  </div> 
+  <div class="header">
+    <a href="https://ataa.sa" target="_self"><img src="img/ataa-logo.png"></a>
+  </div>
 
-  <script type="text/javascript">
 
-  window.onload = function(){
+  <div class="cards">
+
+    <article class="card">
+        <header><h2>مدارس الرواد الأهلية بالازدهار</h2></header>
+        <img src="img/alrowad-logo.png" alt="مدارس الرواد">
+            <div class="link">
+                <a href="https://ataa.sa/single_school/53" target="_self">
+                    <button>الموقع الإليكتروني</button>
+                </a>    
+            </div>     
+    </article>
+
+    <article class="card">
+        <header><h2>مدارس الرواد الأهلية مجمع الأندلس</h2></header>
+        <img src="img/alrowad-logo.png" alt="مدارس الرواد">
+            <div class="link">
+                <a href="https://ataa.sa/single_school/128" target="_self">
+                    <button>الموقع الإليكتروني</button>
+                </a>    
+            </div>     
+    </article>
+
+    <article class="card">
+        <header><h2>مدارس الرواد الأهلية مجمع أشبيلية</h2></header>
+        <img src="img/alrowad-logo.png" alt="مدارس الرواد">
+            <div class="link">
+                <a href="https://ataa.sa/single_school/217" target="_self">
+                    <button>الموقع الإليكتروني</button>
+                </a>    
+            </div>     
+    </article>
+
+    <article class="card">
+        <header><h2>مدارس الرواد الأهلية مجمع الروابي</h2></header>
+        <img src="img/alrowad-logo.png" alt="مدارس الرواد">
+            <div class="link">
+                <a href="https://ataa.sa/single_school/218" target="_self">
+                    <button>الموقع الإليكتروني</button>
+                </a>    
+            </div>     
+    </article>
+
+    <article class="card">
+        <header><h2>مدارس الرواد الأهلية مجمع المنصورة</h2></header>
+        <img src="img/alrowad-logo.png" alt="مدارس الرواد">
+            <div class="link">
+                <a href="https://ataa.sa/single_school/255" target="_self">
+                    <button>الموقع الإليكتروني</button>
+                </a>    
+            </div>     
+    </article>
+
+    <article class="card">
+        <header><h2>مدارس رواد أشبيلية العالمية</h2></header>
+        <img src="img/alrowad-logo.png" alt="مدارس الرواد">
+            <div class="link">
+                <a href="https://ataa.sa/single_school/256" target="_self">
+                    <button>الموقع الإليكتروني</button>
+                </a>    
+            </div>     
+    </article>
+
+    
+</div> 
+
+<div class="footer">
+    <p>جميع الحقوق محفوظة | Ataa Educational Company © <span id="year"></span></p>
+</div>
+
+
+<script type="text/javascript">
+
+    window.onload = function(){
 
     setTimeout(function(){
 
-      document.getElementById("fadein").remove();
+        document.getElementById("fadein").remove();
 
     },1000);
 
-  };
+    document.getElementById("year").innerHTML = new Date().getFullYear();
 
-  </script>
+    };
+
+</script>
 
 </body>
 
